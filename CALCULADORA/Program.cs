@@ -23,7 +23,7 @@ namespace CALCULADORA
 
             while (escolha != "+" && escolha != "-" & escolha != "x" & escolha != "/")
             {
-                Console.WriteLine("Opçao Invalida!! ");
+                Console.WriteLine("Opção Invalida!! ");
                 Console.Write("Escolha a opção: (+ - x / ): ");
                 escolha = Console.ReadLine();
             }
